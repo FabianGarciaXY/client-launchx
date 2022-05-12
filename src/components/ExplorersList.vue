@@ -5,7 +5,7 @@
       <ul class="list-group">
         <li class="list-group-item"
           :class="{ active: index == currentIndex }"
-          v-for="(explorer, index) in explorers"
+          v-for="(explorer, index) in explorers.allExplorers"
           :key="index"
           @click="setActiveExplorer(explorer, index)"
         >
